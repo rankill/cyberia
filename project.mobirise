@@ -297,13 +297,18 @@
             "bgImageRadio": false,
             "parallax": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1139.jpg",
-            "bgColor": "#323232",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 CYBERIA"
+          "text": "Copyright (c) 2016 CYBERIA",
+          "_styles": {
+            "P": {
+              "color": "#232323"
+            }
+          }
         },
         {
           "_inherit": "social-buttons1",
@@ -552,13 +557,18 @@
             "bgImageRadio": false,
             "parallax": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1139.jpg",
-            "bgColor": "#323232",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 CYBERIA"
+          "text": "Copyright (c) 2016 CYBERIA",
+          "_styles": {
+            "P": {
+              "color": "#232323"
+            }
+          }
         }
       ]
     }

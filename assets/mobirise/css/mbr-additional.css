@@ -494,6 +494,9 @@ h6,
 #header1-1 .btn {
   font-family: 'Roboto', sans-serif;
 }
+#footer1-2 P {
+  color: #232323;
+}
 #social-buttons3-7 .mbr-section-title,
 #social-buttons3-7 .btn-social {
   color: #fff;
@@ -584,4 +587,7 @@ h6,
 #menu-0 .close-icon::before,
 #menu-0 .close-icon::after {
   background-color: #ffffff;
+}
+#footer1-1 P {
+  color: #232323;
 }
