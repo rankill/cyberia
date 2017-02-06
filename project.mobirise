@@ -6,11 +6,11 @@
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#000000",
+        "primaryColor": "#666666",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#000000",
-        "warningColor": "#f3c649",
+        "warningColor": "#cccccc",
         "dangerColor": "#f28281",
         "titleFont": "Montserrat",
         "subtitleFont": "Lora",
@@ -438,7 +438,7 @@
             "showButton": false
           },
           "title": "CYBERIA",
-          "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">cyberiacol@gmail.com</span><br></p><p>(+57) 3136151083</p><p>Pereira, Ri<a href=\"http://ss\">sarals</a>da, Colombia</p>",
+          "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">cyberiacol@gmail.com</span><br></p><p>(+57) 3136151083</p><p>Pereira, Risaralsda, Colombia</p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         }
       ]
