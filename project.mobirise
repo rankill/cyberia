@@ -344,6 +344,15 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            },
+            ".mbr-section-title": {
+              "color": "#232323",
+              "font-size": "30px"
+            }
+          },
           "_anchor": "form1-6",
           "_params": {
             "labelsColor": "#232323",
@@ -389,16 +398,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACTANOS</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            },
-            ".mbr-section-title": {
-              "color": "#232323",
-              "font-size": "30px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACTANOS</a>"
         },
         {
           "_styles": {
@@ -438,7 +438,7 @@
             "showButton": false
           },
           "title": "CYBERIA",
-          "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">cyberiacol@gmail.com</span><br></p><p>(+57) 3136151083</p><p>Pereira, Risaralda, Colombia</p>",
+          "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">cyberiacol@gmail.com</span><br></p><p>(+57) 3136151083</p><p>Pereira, Ri<a href=\"http://ss\">sarals</a>da, Colombia</p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         }
       ]
