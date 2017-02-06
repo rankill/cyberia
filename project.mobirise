@@ -34,7 +34,8 @@
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 2
       },
       "components": [
         {
@@ -82,7 +83,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#000000!important"
+              "color": "#464646!important"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
               "background": "#2c2c2c"
@@ -131,7 +132,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">CYBERIA<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-4\" aria-expanded=\"false\">Servicios</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-6\" aria-expanded=\"false\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"store.html\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>TIENDA</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-4\" aria-expanded=\"false\">Servicios<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-6\" aria-expanded=\"false\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"store.html\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>TIENDA</a></li>"
         },
         {
           "_name": "header1",
@@ -290,6 +291,11 @@
         },
         {
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#232323"
+            }
+          },
           "_anchor": "footer1-2",
           "_params": {
             "paddingTop": "2",
@@ -303,12 +309,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 CYBERIA",
-          "_styles": {
-            "P": {
-              "color": "#232323"
-            }
-          }
+          "text": "Copyright (c) 2016 CYBERIA"
         },
         {
           "_inherit": "social-buttons1",
@@ -451,7 +452,8 @@
     "store.html": {
       "settings": {
         "title": "Cyberia Store",
-        "meta_descr": "Here you can buy all you need about telecommunications"
+        "meta_descr": "Here you can buy all you need about telecommunications",
+        "order": 1
       },
       "components": [
         {
@@ -546,10 +548,15 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">CYBERIA<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-4\" aria-expanded=\"false\">Servicios</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-6\" aria-expanded=\"false\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"store.html\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>TIENDA</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-4\" aria-expanded=\"false\">Servicios<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-6\" aria-expanded=\"false\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"store.html\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>TIENDA</a></li>"
         },
         {
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#232323"
+            }
+          },
           "_anchor": "footer1-1",
           "_params": {
             "paddingTop": "2",
@@ -563,12 +570,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 CYBERIA",
-          "_styles": {
-            "P": {
-              "color": "#232323"
-            }
-          }
+          "text": "Copyright (c) 2016 CYBERIA"
         }
       ]
     }
