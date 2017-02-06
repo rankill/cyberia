@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 9,
+    "uniqCompNum": 12,
     "versionPublish": "3.11.1",
     "favicon": "",
     "noImageResize": ""
@@ -138,18 +138,18 @@
           "_anchor": "header1-1",
           "_params": {
             "parallax": true,
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1500.jpg",
             "bgColor": "#212121",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#151515",
             "contentAlign": "center",
             "showTitle": true,
             "showText": true,
@@ -166,8 +166,8 @@
           "_name": "features3",
           "_anchor": "features3-4",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -180,7 +180,7 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "columns": 4,
+            "columns": "4",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
@@ -282,11 +282,11 @@
           "_params": {
             "paddingTop": "2",
             "paddingBottom": 2,
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "parallax": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1139.jpg",
             "bgColor": "#323232",
-            "bgColorRadio": false,
+            "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
@@ -298,6 +298,9 @@
           "_styles": {
             ".mbr-section-title, .btn-social": {
               "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-size": "30px"
             }
           },
           "_tags": [
@@ -380,47 +383,48 @@
               "color": "#232323"
             },
             ".mbr-section-title": {
-              "color": "#232323"
+              "color": "#232323",
+              "font-size": "30px"
             }
           }
         },
         {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".lead P": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-8",
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-b",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#212121",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/cyberialogo-160x128.png",
-              "width": 128,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1139.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "",
-              "size": 0
-            }
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.9",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
           },
-          "text1": "<strong>Address</strong><br>Pereira<br>Risaralda<br>Colombia",
-          "text2": "<strong>Contacts</strong><br>\nEmail: cyberiacol@gmail.com<br>\nPhone: +57 313 6151083<br><br>",
-          "text3": ""
+          "title": "CYBERIA",
+          "text": "<p>cyberiacol@gmail.com</p><p>(+57) 3136151083</p><p>Pereira, Risaralda, Colombia</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         }
       ]
     },
@@ -526,11 +530,11 @@
           "_params": {
             "paddingTop": "2",
             "paddingBottom": 2,
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "parallax": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1139.jpg",
             "bgColor": "#323232",
-            "bgColorRadio": false,
+            "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
