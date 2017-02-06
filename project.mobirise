@@ -6,7 +6,7 @@
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#666666",
+        "primaryColor": "#464646",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#000000",
@@ -379,7 +379,7 @@
           "form": {
             "action": "luis.eonltd@gmail.com",
             "alerts": {
-              "success": "Gracia spor contactarnos! estaremos en contacto a la menor brevedad"
+              "success": "Gracias por contactarnos! estaremos en contacto a la menor brevedad"
             },
             "fields": {
               "name": {
@@ -443,7 +443,7 @@
             "showButton": false
           },
           "title": "CYBERIA",
-          "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">cyberiacol@gmail.com</span><br></p><p>(+57) 3136151083</p><p>Pereira, Risaralsda, Colombia</p>",
+          "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><a href=\"mailto:cyberiacol@gmail.com?subject=Hello%20Cyberia\" class=\"text-warning\">cyberiacol@gmail.com</a></span><br></p><p><a href=\"tel:+573188655651\" class=\"text-warning\">(+57) 318 865 5651</a></p><p>Pereira, Risaralsda, Colombia</p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         }
       ]
