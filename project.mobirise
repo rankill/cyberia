@@ -396,6 +396,9 @@
             ".lead P": {
               "font-family": "'Roboto', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            ".mbr-section-title": {
+              "color": "#cccccc"
             }
           },
           "_tags": [
@@ -423,7 +426,7 @@
             "showButton": false
           },
           "title": "CYBERIA",
-          "text": "<p>cyberiacol@gmail.com</p><p>(+57) 3136151083</p><p>Pereira, Risaralda, Colombia</p>",
+          "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">cyberiacol@gmail.com</span><br></p><p>(+57) 3136151083</p><p>Pereira, Risaralda, Colombia</p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         }
       ]

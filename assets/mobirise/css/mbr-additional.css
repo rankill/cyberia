@@ -507,6 +507,9 @@ h6,
 #msg-box8-b .lead P {
   font-family: 'Roboto', sans-serif;
 }
+#msg-box8-b .mbr-section-title {
+  color: #cccccc;
+}
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }
